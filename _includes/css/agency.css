@@ -283,7 +283,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-color:#333;
+    background-color:#000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
