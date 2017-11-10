@@ -337,13 +337,15 @@ header canvas{
 
 header .container{
     position:relative;
+    height: 800px;
+    min-height: 500px;
     z-index:100;
     pointer-events: none;
 }
 
 header .intro-text {
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 header .container a{
