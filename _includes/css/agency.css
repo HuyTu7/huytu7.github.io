@@ -47,7 +47,7 @@ a.active {
 }
 
 header h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 90px/2em 'opensans-bold', sans-serif;
    color: #f93;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
@@ -65,7 +65,7 @@ header h3 {
 
 
 #page-top h3 {
-   font: 30px/1.9em 'librebaskerville-regular', "Lato";
+   font: 30px/1em 'opensans-bold', Lato;
    color: #ff9933;
    margin: 0 auto;
    width: 70%;
