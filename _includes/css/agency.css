@@ -58,8 +58,7 @@ header h3 span,
 header h3 {
    font: 25px/1em 'opensans-bold', Lato;
    color: #ececec;
-   margin: 0 auto;
-   margin-top: 15px;	
+   margin: 0 auto;	
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
@@ -69,6 +68,7 @@ header h3 {
    font: 30px/1em 'opensans-bold', Lato;
    color: #ff9933;
    margin: 0 auto;
+   margin-top: 15px;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
@@ -352,7 +352,7 @@ header .container{
 }
 
 header .intro-text {
-    padding-top: 220px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
@@ -399,7 +399,7 @@ header .social li a:hover { color: #11ABB0; }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 150px;
+        padding-top: 220px;
         padding-bottom: 100px;
     }
 
