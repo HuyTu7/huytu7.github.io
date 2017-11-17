@@ -23,9 +23,7 @@
 /* ------------------------------------------------------------------ */
 
 body {
-    overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #{{ site.color.secondary-dark }};
+    { background: #0f0f0f; }
 }
 
 /* ------------------------------------------------------------------ */
