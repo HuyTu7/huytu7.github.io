@@ -79,11 +79,6 @@ header .container{
     pointer-events: none;
 }
 
-header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 header .container a{
     pointer-events: all;
 }
