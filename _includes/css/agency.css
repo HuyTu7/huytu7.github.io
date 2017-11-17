@@ -48,17 +48,6 @@ a:active,
 a.active {
     color: #{{ site.color.secondary }};
 }
-header {
-   position: relative;
-   height: 800px;
-   min-height: 500px;
-   width: 100%;
-   /* background: #161415 url(../images/space.jpg) no-repeat top center;  */
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   text-align: center;
-   overflow: hidden;
-}
 
 header {
     text-align: center;
@@ -69,6 +58,10 @@ header {
     background-size: cover;
     -o-background-size: cover;
     position:relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden; 	
 }
 
 header canvas{
