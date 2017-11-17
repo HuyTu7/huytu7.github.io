@@ -70,7 +70,7 @@ header canvas{
     left:0;
     z-index:0;
 }
-
+/*
 header .container{
     position:relative;
     height: 800px;
@@ -81,7 +81,7 @@ header .container{
 
 header .container a{
     pointer-events: all;
-}
+} */
 	
 	
 /* vertically center banner section */
