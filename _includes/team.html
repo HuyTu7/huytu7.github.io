@@ -1,37 +1,110 @@
-<!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Team</h2>
-                    <h3 class="section-subheading text-muted">Core team that develops library.</h3>
-                </div>
-            </div>
-            <div class="row">
-                {% for member in site.people %}
-                <div class="col-sm-12">
-                    <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
+ <!-- Work
+      ----------------------------------------------- -->
+      <section id="work" class="row work">
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
 
-                        </ul>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-<!--             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted"> </p>
-                </div>
-            </div> -->
-        </div>
-    </section>
+         <div class="nine columns main-col">
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>North Carolina State University</h3>
+                  <p class="info">Research Assistant <span>&bull;</span> <em class="date">January 2015 - Present</em></p>
+
+                 <ul>   <li>Guided by <a href="http://menzies.us">Dr Tim Menzies</a>, a pioneer in automated software engineering, search based software engineering and data mining in software engineering</li>
+                        <li>Software Effort Estimation based on dimensionality synthesis and clusterring techniques. Multiple alternative approaches are also under study like outlier elimination, synthetic data generation and feature weighted estimation</li>
+                        <li>Statistical tests to measure correctness of estimation techniques. ANOVA, A12, Bootstrap and Cliffs-Delta are some of the methods adopted</li>
+                        <li>Research Papers enroute. Keeping my fingers crossed :-P</li>
+                    </ul>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>LexisNexis Risk</h3>
+                  <p class="info">Software Engineering Intern <span>&bull;</span> <em class="date">May 2017 - August 2017</em></p>
+
+                  <ul>
+                    <li>Implement Gradient Boosting Trees on Enterprise Computing Language(ECL).</li>
+                    <li>Benchmark ECL implementation of GB Trees with the implementation of scikit-learn.</li>
+                    <li>Develop a common search platform for both legal and academic documents.</li>
+                  </ul>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Facebook</h3>
+                  <p class="info">Software Engineering Intern <span>&bull;</span> <em class="date">May 2015 - August 2015</em></p>
+
+                  <ul>
+                    <li>Worked on parsing <a href="https://prestodb.io/">presto</a> queries and estimating optimal regions to run queries that span across different data centers.</li>
+                    <li>Automatic import of missing data across multiple datacenters based on queries.</li>
+                    </ul>
+
+               </div>
+
+            </div> <!-- item end -->
+
+					 	<div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>NCSU Libraries</h3>
+                  <p class="info">Student Programmer <span>&bull;</span> <em class="date">September 2014 - December 2014</em></p>
+
+                  <ul>
+                    <li>Worked on <a href="http://imvr.lib.ncsu.edu">ImageViewer</a>, an online image slideshow. It is built on a Django stack and the front end is powered by jquery and bootstrap </li>
+                        <li>Developed a google calendar interface to store the presentation details for Cedar. Cedar is an event scheduler for various displays used in the NCSU libraries. It is built on a Django stack and uses PostGreSQL for storage</li>
+                    </ul>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>CrowdSpots(VDP IT Solutions)</h3>
+                  <p class="info">Software Engineer <span>&bull;</span> <em class="date">October 2013 - July 2014</em></p>
+
+                  <ul>
+                        <li>Developed <a href="https://crowdchat.net">crowdchat.net</a>, a hash-tag based chat platform. It enables people from different social media networks to communicate on a common hash-tag. It was built using the NodeJS Redis stack. Bootstrap, jQuery and client jade were used to develop the user interface</li>
+                        <li>Worked on <a href="http://platform.crowdchat.net">platform.crowdchat.net</a>, a data analytics platform that helps you connect with people and subscribe to their activities on twitter. The application was built on the Java MySQL stack and successfully scaled to hold more than 250 GB of analyzed data. Full text search was provided using Apache Solr</li>
+                    </ul>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Payoda Technologies</h3>
+                  <p class="info">Software Engineer<span>&bull;</span> <em class="date">June 2012 - September 2013</em></p>
+
+                 <ul>
+                        <li>Created a REST based module in AppViewX(Product of Payoda Technologies) to add a device into mongoDB (NO-SQL based database).</li>
+                        <li>Created an aggregation script on mongoDB using map-reduce to aggregate statistics periodically.</li>
+                        <li>Created a topological view to show hierarchy of an application in a device using jQuery</li>
+                        <li>Displaying a load balancer based on global coordinates using Google maps API</li>
+                    </ul>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+      </section> <!-- End Work -->
