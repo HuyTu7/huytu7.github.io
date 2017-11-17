@@ -168,13 +168,6 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
-.profile-pic {
-   position: relative;
-   width: 200px;
-   height: 200px;
-   border-radius: 100%;
-}
-
 .img-centered {
     margin: 0 auto;
 }
@@ -302,8 +295,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 200px;
+   height: 200px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
