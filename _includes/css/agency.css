@@ -168,15 +168,6 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
-#page-top h3 {
-   font: 30px/1em 'opensans-bold', Lato;
-   color: #ff9933;
-   margin: 0 auto;
-   margin-top: 15px;
-   width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
-}
-
 .profile-pic {
    position: relative;
    width: 200px;
