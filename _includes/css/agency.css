@@ -52,7 +52,7 @@ a.active {
 header {
     text-align: center;
     color: #fff;
-    background-color:#000;
+    background-color:#003;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -1082,7 +1082,8 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #003;
+   color: #;
+   background-color:#003;
    font-size: 14px;
    text-align: center;
    position: relative;
