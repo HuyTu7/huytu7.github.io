@@ -100,7 +100,11 @@ header .banner {
    text-align: center;
 }
 
-header .banner-text { width: 100%; }
+header .banner-text { width: 100%; pointer-events: none;}
+header .banner-text a{
+    pointer-events: all;
+}
+
 header .banner-text h1 {
    font: 125px/1.3em 'opensans-bold', sans-serif;
    color: #f93;
