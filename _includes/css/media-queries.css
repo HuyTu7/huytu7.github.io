@@ -54,6 +54,10 @@
       height: 150px;
       margin-left: 12px;
    }
+   #about h3 {
+      line-height: 25px;
+   }	
+	
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
 
@@ -227,7 +231,17 @@
       padding: 15px 20px;
    }
    #about .main-col { padding-right: 30px; }
-
+   
+   #about h1 {
+      font: 25px/1.8em 'librebaskerville-regular', sans-serif;
+      width: 90%;
+   }
+   #about h3 {
+      font: 15px/1.5em 'librebaskerville-regular', sans-serif;
+      line-height: 25px;	   
+      width: 90%;
+   }
+	
 
    /* Resume Section
    --------------------------------------------------------------------- */
@@ -367,6 +381,18 @@
    /* header social links */
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
+	
+   /* about styles
+   -------------------------------------------------------------------- */
+   #about h1 {
+      font: 20px/1.8em 'librebaskerville-regular', sans-serif;
+      width: 90%;
+   }
+   #about h3 {
+      font: 12px/1.5em 'librebaskerville-regular', sans-serif;
+      line-height: 20px;	   
+      width: 90%;
+   }
 
    /* footer
    ------------------------------------------------------------------------ */
