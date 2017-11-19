@@ -211,7 +211,7 @@
       font-size: 36px;
       line-height: 40px;
       color: #fff;
-      background-color: #222;
+      background-color: #004;
        -webkit-transition: all .3s;
        -moz-transition: all .3s;
       transition: all .3s;	   
@@ -233,14 +233,19 @@
    #about .main-col { padding-right: 30px; }
    
    #about h1 {
-      font: 25px/1.8em 'librebaskerville-regular', sans-serif;
+      font: 40px/1.8em 'librebaskerville-regular', sans-serif;
       width: 90%;
    }
    #about h3 {
-      font: 15px/1.5em 'librebaskerville-regular', sans-serif;
-      line-height: 25px;	   
+      font: 22px/1.9em 'librebaskerville-regular', sans-serif;
+      line-height: 22px;	   
       width: 90%;
    }
+   #about p {
+      font-size: 17px;
+      line-height: 15px;	
+   }	
+	
 	
 
    /* Resume Section
@@ -385,14 +390,19 @@
    /* about styles
    -------------------------------------------------------------------- */
    #about h1 {
-      font: 20px/1.8em 'librebaskerville-regular', sans-serif;
+      font: 35px/1.8em 'librebaskerville-regular', sans-serif;
       width: 90%;
    }
    #about h3 {
-      font: 12px/1.5em 'librebaskerville-regular', sans-serif;
+      font: 19px/1.5em 'librebaskerville-regular', sans-serif;
       line-height: 20px;	   
       width: 90%;
    }
+   
+   #about p {
+      font-size: 16px;
+      line-height: 15px;	
+   }	
 
    /* footer
    ------------------------------------------------------------------------ */
