@@ -11,7 +11,7 @@
 ------------------------------------------------------ */
 
     setTimeout(function() {
-	   $('h1.responsive-headline').fitText(1, { minFontSize: '70px', maxFontSize: '140px' });
+	   $('h1.responsive-headline').fitText(1, { minFontSize: '80px', maxFontSize: '140px' });
 	 }, 100);
 
 
