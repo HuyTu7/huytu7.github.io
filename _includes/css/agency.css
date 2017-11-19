@@ -85,6 +85,7 @@ header .container a{
 
 header .container{
     position:relative;
+    display: inline; 	
     height: 800px;
     min-height: 500px;
     z-index:100;
@@ -152,7 +153,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #f93; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -174,7 +175,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #f93; }
 
 .img-centered {
     margin: 0 auto;
