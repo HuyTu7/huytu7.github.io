@@ -359,8 +359,7 @@ ul#nav li.current a { color: #F06000; }
 #about p {	
    line-height: 30px;
    font-size: 18px; 	 
-   color: #009;
-   margin-top: 20px;	
+   color: #009;	
 }
 #about .profile-pic {
    position: relative;
