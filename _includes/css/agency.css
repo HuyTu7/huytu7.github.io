@@ -355,7 +355,7 @@ ul#nav li.current a { color: #F06000; }
 #about p {	
    line-height: 30px;
    font-size: 18px; 	 
-   color: #005;
+   color: #009;
    margin-top: 20px;	
 }
 #about .profile-pic {
@@ -373,7 +373,7 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    /* margin-top: 6px; */
-   background: #;
+   background: #009;
 }
 #about .download .button:hover {
    background: #fff;
