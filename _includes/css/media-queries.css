@@ -164,7 +164,7 @@
 	#nav-wrap:target > ul#nav	{
 	   display: block;
       padding: 30px 20px 48px 20px;
-      background: #1f2024;
+      background: #f93;
       margin: 0 30px;
       clear: both;
    }
@@ -384,7 +384,7 @@
    }
   
    /* header social links */
-   header .social { font-size: 30px;}
+   header .social { font-size: 35px;}
    header .social li { margin: 0 6px; }
 	
    /* about styles
@@ -408,7 +408,7 @@
    ------------------------------------------------------------------------ */
 
    /* social links */
-   footer .social-links { font-size: 25px; }
+   footer .social-links { font-size: 30px; }
    footer .social-links li { margin-left: 14px; }   
 
 }
