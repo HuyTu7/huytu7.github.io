@@ -233,17 +233,17 @@
    #about .main-col { padding-right: 30px; }
    
    #about h1 {
-      font: 40px/1.8em 'librebaskerville-regular', sans-serif;
+      font: 45px/1.8em 'librebaskerville-regular', sans-serif;
       width: 90%;
    }
    #about h3 {
-      font: 22px/1.9em 'librebaskerville-regular', sans-serif;
-      line-height: 22px;	   
+      font: 24px/1.9em 'librebaskerville-regular', sans-serif;
+      line-height: 25px;	   
       width: 90%;
    }
    #about p {
       font-size: 17px;
-      line-height: 15px;	
+      line-height: 21px;	
    }	
 	
 	
@@ -379,8 +379,9 @@
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+      font: 16px/1.9em 'librebaskerville-regular', sans-serif;
       width: 90%;
+      word-spacing: 1px;	   
    }
   
    /* header social links */
@@ -390,18 +391,18 @@
    /* about styles
    -------------------------------------------------------------------- */
    #about h1 {
-      font: 35px/1.8em 'librebaskerville-regular', sans-serif;
+      font: 40px/1.8em 'librebaskerville-regular', sans-serif;
       width: 90%;
    }
    #about h3 {
       font: 19px/1.5em 'librebaskerville-regular', sans-serif;
-      line-height: 20px;	   
+      line-height: 23px;	   
       width: 90%;
    }
    
    #about p {
       font-size: 16px;
-      line-height: 15px;	
+      line-height: 20px;	
    }	
 
    /* footer
