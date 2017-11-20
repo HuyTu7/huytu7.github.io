@@ -88,7 +88,7 @@ header .container{
     display: inline; 	
     height: 800px;
     min-height: 500px;
-    z-index:100;
+    z-index:10;
     pointer-events: none;
 }
 
