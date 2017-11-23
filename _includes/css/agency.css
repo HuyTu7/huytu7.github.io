@@ -112,7 +112,9 @@ header .banner {
    text-align: center;
 }
 
-header .banner-text { width: 100%; }
+header .banner-text { 
+	width: 100%; 
+}
 
 
 header .banner-text h1 {
