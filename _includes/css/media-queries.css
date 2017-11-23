@@ -223,8 +223,14 @@
 
 
    /* About Section
-   -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   --------------------------------------------------------------------
+   #about .profile-pic { display: none; } */
+   #about .profile-pic {
+      width: 110px;
+      height: 110px;
+      margin-left: 12px;
+   }	
+	
    #about .download .button {
       width: 100%;
       text-align: center;
@@ -238,12 +244,12 @@
    }
    #about h3 {
       font: 24px/1.9em 'librebaskerville-regular', sans-serif;
-      line-height: 25px;	   
+      line-height: 28px;	   
       width: 90%;
    }
    #about p {
       font-size: 17px;
-      line-height: 21px;	
+      line-height: 25px;	
    }	
 	
 	
@@ -396,13 +402,13 @@
    }
    #about h3 {
       font: 19px/1.5em 'librebaskerville-regular', sans-serif;
-      line-height: 23px;	   
+      line-height: 27px;	   
       width: 90%;
    }
    
    #about p {
       font-size: 16px;
-      line-height: 20px;	
+      line-height: 25px;	
    }	
 
    /* footer
