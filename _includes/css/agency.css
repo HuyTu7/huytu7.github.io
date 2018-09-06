@@ -415,12 +415,6 @@ ul#nav li.current a { color: #F06000; }
 #education{
 	padding-top: 90px;
 }
-
-#education p .info {
-   margin-bottom: -1em;  
-   margin-top: 0em;} 
-}
-
 #work,#projects,#research, #publications{
 	padding-top: 72px;
 	border-top: 1px solid #E8E8E8;
@@ -464,6 +458,12 @@ ul#nav li.current a { color: #F06000; }
   color: #6E7881;
   margin-bottom: 18px;
 }
+
+#education p .info {
+   margin-bottom: -1em;  
+   margin-top: 0em;} 
+}
+
 
 /*----------------------------------------------*/
 /*	Skill Bars
