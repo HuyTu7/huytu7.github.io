@@ -4,6 +4,27 @@
  * Karayev.
  */
 
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -41,11 +62,9 @@
     padding:15px;
 }
 
-ul.square { list-style: square outside; }
-ul.circle { list-style: circle outside; }
-ul.disc { list-style: disc outside; }
+
 ul {
-    list-style: none outside;
+    list-style: none;
     margin: 6px 0 6px 30px;
     padding-left: 15px;
     padding-bottom: 0px;
@@ -53,6 +72,8 @@ ul {
     -webkit-columns: 1;
     -moz-columns: 1;
 }
+li { line-height: 18px; margin-bottom: 12px; }
+
 
 @media only screen and (min-width: 500px) {
     /* For desktop: */
@@ -76,6 +97,10 @@ ul {
     .col-proj-pic-triple img {max-width: 33%; float:left; display:inline; padding-right: 20px}
 }
 
+ul.square { list-style: square outside; }
+ul.circle { list-style: circle outside; }
+ul.disc { list-style: disc outside; }
+
 @media only screen and (min-width: 800px) {
     /* For desktop: */
     ul {
@@ -84,7 +109,10 @@ ul {
         -moz-columns: 2;
     }
 }
-
+ul.social {
+   -webkit-columns: none;
+   -moz-columns: none;
+}
 
 a {
     color: #1772d0;
@@ -98,7 +126,6 @@ a:focus, a:hover {
 
 body,td,th,tr,p,a {
     font-family: 'Nunito', "Helvetica Neue", 'Lato', Verdana,Helvetica, Arial, sans-serif;
-    font-size: 18px;
     line-height:140%;
 }
 
