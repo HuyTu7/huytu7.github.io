@@ -1,3 +1,483 @@
----
-layout: style
----
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="en-us" http-equiv="Content-Language">
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta name="description" content="Huy Tu, Rishabh Agrawal and Dr. Tim Menzies, Computer Science, North Carolina State University">
+  <meta name="author" content="Rishabh Agrawal">
+  <meta name="keywords" content="computational science, software engineering, data mining">
+	<title>SE 4 CS</title>
+</head>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="icon" type="image/png" href="images/ncsu_seal.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="shortcut icon" href="stanford.ico" type="image/x-icon">
+</head>
+
+<body>
+<div class="container">
+  <div class="row no-pad">
+      <div class="col-md-12">
+        <p align="center" lang="zh-cn"><name>Elements: Can Empirical SE be Adapted to Computational Science?</name></p>
+
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-3">
+      </div>
+      <div class="col-md-3">
+          <img src="images/ncsu_seal.png" align=center class="img-responsive center-block">
+      </div>
+      <div class="col-md-3">
+        <div class="row no-pad">
+            <div class="col-md-12">
+                <img src="images/nsf_logo.png" align=center class="img-responsive center-block">
+            </div>
+        </div>
+        <div class="row no-pad">
+            <div class="col-md-12 text-center">
+                <span class="custom-small">Award #1931425</span>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+      </div>
+  </div>
+  <div class="row custom-row">
+
+      <p>A common concern  within the Computational Science (CS) community is that computational scientists are not trained in Software Engineering (SE) and hence might create less-than-good software. This concern is unfounded. </p>
+      <p>Computational Scientists study micro events within atoms that add up to predictable properties of macro materials (e.g. the sun). Similarly, empirical software engineers study micro patterns within software projects, to learn predictable properties of those projects.
+      </p>
+
+      <p>
+      <b>Hypothesis:</b> Integrating SE practices will help computational scientists produce better science (e.g. more reliable, more reproducible, & more efficient).
+      </p>
+
+
+<!--       <div class="row">
+        <strong><font color="red"><p>I'm on the job market, looking for industrial and academic positions.</p></font></strong>
+      </div> -->
+      <p align=center>
+        DR. TIM MENZIES:
+        <a href="mailto:timm@ieee.org">Email</a>&nbsp;/&nbsp;
+        <a href="https://www.linkedin.com/in/tim-menzies-444183/">LinkedIn</a>&nbsp;/&nbsp;
+        <a href="http://menzies.us/">Website</a>
+      </p>
+      <p align=center>
+        HUY TU:
+        <a href="mailto:hqtu@ncsu.edu">Email</a>&nbsp;/&nbsp;
+        <a href="https://www.linkedin.com/in/huytu/">LinkedIn</a>&nbsp;/&nbsp;
+        <a href="http://kentu.us/">Website</a>
+      </p>
+      <p align=center>
+        RISHABH AGRAWAL:
+        <a href="mailto:ragrawa3@ncsu.edu">Email</a>&nbsp;/&nbsp;
+        <a href="https://www.linkedin.com/in/rishabh-agrawal-653907b0/">LinkedIn</a>&nbsp;/&nbsp;
+        <a href="https://www.linkedin.com/in/rishabh-agrawal-653907b0/">Website</a>
+      </p>
+  </div>
+
+  <div class="row custom-row no-pad">
+      <ul class="nav nav-tabs nav-justified single-col">
+          <li class="active"><a data-toggle="tab" href="#methods"><strong class="custom-tab-headings">Methods</strong></a></li>
+          <li><a data-toggle="tab" href="#current"><strong class="custom-tab-headings">Results</strong></a></li>
+          <li><a data-toggle="tab" href="#future"><strong class="custom-tab-headings">Direction</strong></a></li>
+          <li><a data-toggle="tab" href="#resources"><strong class="custom-tab-headings">Resources</strong></a></li>
+          <!--<li><a data-toggle="tab" href="#contact"><strong class="custom-tab-headings">Contact Us</strong></a></li> -->
+      </ul>
+  </div>
+  <div class="row custom-row no-pad">
+      <div class="tab-content">
+          <div id="current" class="tab-pane">
+              <ol>
+                  <div class="custom-row">
+                      <div class="row custom-sub-row no-pad">
+                          <heading>
+                            <li> Defect forecasting
+                          </heading>
+                      </div>
+                      <div class="row custom-sub-row no-pad">
+                          <div class="row custom-sub-row no-pad">
+                              <div class="col-md-12">
+                                  <p class="intro-heading">In our study conducted on 21 CS projects, we found that in case of majority of them (15), adapated SE methods dominate traditional SE methods for defect forecasting.
+                              </div>
+                          </div>
+                          <div class="row custom-sub-row no-pad">
+                              <div class="col-md-12">
+                                <img src="images/emblem.png" class="img-responsive">
+                              </div>
+                          </div>
+                          <div class="row custom-sub-row">
+                              <div class="col-md-6">
+                                  <ul style="list-style-type:Disc" class="single-col">
+                                      <li class="nc-color"> <strong>Red</strong>: Standard Empirical SE (perform badly on Compute.Sci. projects)
+                                  </ul>
+                              </div>
+                              <div class="col-md-6">
+                                  <ul style="list-style-type:Disc" class="single-col">
+                                      <li style="color:green"> <strong>Green</strong>: After we made it better
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <hr/>
+                  <div class="custom-row">
+                      <div class="row custom-sub-row no-pad">
+                          <heading>
+                          <li> Identify Heroes / Antiheroes
+                          </heading>
+                      </div>
+                      <div class="row custom-sub-row no-pad">
+                          <div class="col-md-12">
+                              <div class="row custom-sub-row no-pad">
+                                  <p class="intro-heading">In our study conducted on data of more than 3000 developers across 59 CS projects, we found that non-experts and novices are able to contribute to the software development without causing more bugs than existing heroes. Non-hero CS developers introduced only slightly higher number of bugs than hero developers (1.09-1.15 times), as compared to (1.3-1.9 times) in case of SE projects.</p>
+                              </div>
+                              <div class="row custom-sub-row no-pad">
+                                  <div class="col-md-12">
+                                      <img src="images/heroes.png" class="img-responsive">
+                                  </div>
+                              </div>
+                              <div class="row custom-sub-row">
+                                  <div class="col-md-6">
+                                      <ul style="list-style-type:Disc" class="single-col">
+                                          <li> <strong>Idea</strong>: Identify effective and ineffective contributors. When to reject patches from “untrusty” sources?
+                                      </ul>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <ul style="list-style-type:Disc" class="single-col">
+                                          <li> <strong>Value</strong>: Focus energy on top contributors.  Automatically assign review tasks to best hero available.  Identify contributors that need additional skills development.
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <hr/>
+                  <div class="custom-row">
+                      <div class="row custom-sub-row no-pad">
+                          <heading>
+                          <li> CS projects: More granular, build faster
+                          </heading>
+                      </div>
+                      <div class="row custom-sub-row no-pad">
+                          <div class="col-md-12">
+                              <div class="row custom-sub-row no-pad">
+                                  <p class="intro-heading">In our study conducted on data of more than 3000 developers across 59 CS projects and comparing with 1000+ SE projects on github, we observed that CS developers commited, closed issues, deployed/released, and tagged more while the projects are shorter in duration.
+                              </div>
+                              <div class="row custom-sub-row">
+                                  <div class="col-md-7">
+                                      <img src="images/summary.png" class="img-responsive">
+                                  </div>
+                                  <div class="col-md-5">
+                                      <img src="images/separate.png" class="img-responsive">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </ol>
+          </div>
+          <div id="future" class="tab-pane">
+              <div class="custom-row">
+                  <p class="text-center nc-color big-text">
+                    Which of the following is useful to you?
+                      <br>
+                      Or... what else should we do?
+                  </p>
+              </div>
+              <hr/>
+              <ol class="custom-row">
+                  <div class="custom-row">
+                      <div class="row custom-sub-row no-pad">
+                          <heading>
+                          <li> Effort forecasting
+                          </heading>
+                      </div>
+                      <div class="row custom-sub-row">
+                          <div class="col-md-2"></div>
+                          <div class="col-md-8">
+                              <div class="row custom-sub-row no-pad">
+                                  <div class="col-md-12">
+                                    <img src="images/slide9.png" class="img-responsive">
+                                  </div>
+                              </div>
+                              <div class="row custom-sub-row">
+                                  <div class="col-md-6">
+                                      <ul style="list-style-type:Disc" class="single-col">
+                                          <li> <strong>Idea</strong>: Predict next month’s work due to issues, bugs and enhancement requests.<br>
+                                      </ul>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <ul style="list-style-type:Disc" class="single-col">
+                                          <li> <strong>Value</strong>: Increase effectiveness of planning and staff allocation.  Improve project estimates.
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-2"></div>
+                      </div>
+                  </div>
+                  <hr/>
+                  <div class="custom-row">
+                      <div class="row custom-sub-row no-pad">
+                          <heading>
+                          <li> Defect Forecasts using these attributes
+                          </heading>
+                      </div>
+                      <div class="row custom-sub-row no-pad">
+                          <div class="col-md-12">
+                            <img src="images/slide8.png" class="img-responsive">
+                          </div>
+                      </div>
+                  </div>
+                  <hr/>
+                  <div class="custom-row">
+                      <div class="row custom-sub-row no-pad">
+                          <heading>
+                          <li> Mailing list genie
+                          </heading>
+                      </div>
+                      <div class="row custom-sub-row">
+                          <div class="col-md-6">
+                            <img src="images/slide13.png" class="img-responsive">
+                          </div>
+                          <div class="col-md-6">
+                              <div class="row no-pad">
+                                  <div class="col-md-12">
+                                        <p> A friend who tells you where this question has been answered before </p>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col-md-6">
+                                      <ul style="list-style-type:Disc" class="single-col">
+                                          <li> <strong>Idea</strong>: Automatically triage mailing list questions and support requests using prior responses.
+                                      </ul>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <ul style="list-style-type:Disc" class="single-col">
+                                          <li> <strong>Value</strong>: Reduce support efforts. Improve user experience and community engagement.
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <hr/>
+                  <div class="custom-row">
+                      <div class="row custom-sub-row no-pad">
+                          <heading>
+                          <li> Reviewer selector
+                          </heading>
+                      </div>
+                      <div class="row custom-sub-row">
+                          <div class="col-md-6">
+                            <img src="images/slide16_1.png" class="img-responsive">
+                          </div>
+                          <div class="col-md-3">
+                              <ul style="list-style-type:Disc" class="single-col">
+                                  <li> <strong>Idea</strong>: Automatically identify best reviewer for a peer review.
+                              </ul>
+                          </div>
+                          <div class="col-md-3">
+                              <ul style="list-style-type:Disc" class="single-col">
+                                  <li> <strong>Value</strong>: Optimize reviewer selection.  Speed up the development cycle with fast feedback.
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="row custom-sub-row no-pad">
+                          <div class="col-md-12">
+                            <img src="images/slide16_2.png" class="img-responsive">
+                          </div>
+                      </div>
+                  </div>
+                  <hr/>
+                  <div class="custom-row">
+                      <div class="row custom-sub-row no-pad">
+                          <heading>
+                          <li>Test case prioritization
+                          </heading>
+                      </div>
+                      <div class="row custom-sub-row">
+                          <div class="col-md-6">
+                            <img src="images/slide17.png" class="img-responsive">
+                          </div>
+                          <div class="col-md-3">
+                              <ul style="list-style-type:Disc" class="single-col">
+                                  <li> <strong>Idea</strong>: Minimize time to failure for PRs by reordering test cases dynamically.
+                              </ul>
+                          </div>
+                          <div class="col-md-3">
+                              <ul style="list-style-type:Disc" class="single-col">
+                                  <li> <strong>Value</strong>: Speed up the development cycle with fast feedback. Find new issues faster.
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <hr/>
+                  <div class="custom-row">
+                      <div class="row custom-sub-row no-pad">
+                          <heading>
+                          <li>API Usage Assistant
+                          </heading>
+                      </div>
+                      <div class="row custom-sub-row">
+                          <div class="col-md-6">
+                            <img src="images/slide18.png" class="img-responsive">
+                          </div>
+                          <div class="col-md-3">
+                              <ul style="list-style-type:Disc" class="single-col">
+                                  <li> <strong>Idea</strong>: Jump-start new users with tailored code completion recommendations.
+                              </ul>
+                          </div>
+                          <div class="col-md-3">
+                              <ul style="list-style-type:Disc" class="single-col">
+                                  <li> <strong>Value</strong>: Onboard new users quickly and make their first steps the right ones.
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <hr/>
+                  <div class="custom-row">
+                      <div class="row custom-sub-row no-pad">
+                          <heading>
+                          <li>API Usage Metrics / Idioms
+                          </heading>
+                      </div>
+                      <div class="row custom-sub-row">
+                          <div class="col-md-6">
+                            <img src="images/slide14.png" class="img-responsive">
+                          </div>
+                          <div class="col-md-3">
+                              <ul style="list-style-type:Disc" class="single-col">
+                                  <li> <strong>Idea</strong>: Characterize your API surface with regards to usage from the community.  Find low/high areas of usage and common usage patterns.
+                              </ul>
+                          </div>
+                          <div class="col-md-3">
+                              <ul style="list-style-type:Disc" class="single-col">
+                                  <li> <strong>Value</strong>: Prioritize engineering effort based on actual API usage.  Identify areas for new examples and documentation.  Receive indirect feedback on API design.
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <hr/>
+                  <div class="custom-row">
+                      <div class="row custom-sub-row no-pad">
+                          <heading>
+                          <li>Automated Changes
+                          </heading>
+                      </div>
+                      <div class="row custom-sub-row">
+                          <div class="col-md-6">
+                              <ul style="list-style-type:Disc" class="single-col">
+                                  <li> <strong>Idea</strong>: Automatically propose bug fixes and other changes.
+                              </ul>
+                          </div>
+                          <div class="col-md-6">
+                              <ul style="list-style-type:Disc" class="single-col">
+                                  <li> <strong>Value</strong>: Reduce developer effort to fix bugs.
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="row custom-sub-row no-pad">
+                          <div class="col-md-12">
+                            <img src="images/slide19.png" class="img-responsive">
+                          </div>
+                      </div>
+                  </div>
+              </ol>
+          </div>
+          <div id="methods" class="tab-pane active">
+
+
+
+
+          </div>
+          <div id="resources" class="tab-pane">
+              <ol>
+                  <div class="custom-row">
+                      <div class="custom-sub-row">
+                        <heading><li>Publications</li></heading>
+                      </div>
+                      <div class="custom-sub-row">
+                          <div class="col-proj-all">
+                              <a href="docs/githubcs.pdf">
+                                <papertitle>The Changing Nature of Computational Science Software</papertitle>
+                              </a>
+                              <br>
+                              <strong>Huy Tu</strong>, <strong>Rishabh Agrawal</strong>, <strong>Tim Menzies</strong>
+                              <br>
+                              <p>
+                                In this paper we seek quantitative evidence (from dozens of Comptutational Science projects housed in Github) for 13 previously published conjectures about scientific software development in the literature. In all, we explore three groups of beliefs about (1) the nature of scientific challenges; (2) the implications of limitations of computer hardware; and (3) the cultural environment of scientific software development. We find that four cannot be assessed with respect to the Github data. Of the others, only three can be endorsed. Our conclusion will be that the nature of Computational Science software development is changing. Hence the tools we should develop to support software-based-science, need to change as well.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="custom-sub-row">
+                          <div class="col-proj-all">
+                              <a href="https://arxiv.org/pdf/1905.01719.pdf">
+                                  <papertitle>Better Data Labelling with EMBLEM (and how that Impacts Defect Prediction)</papertitle>
+                              </a>
+                              <br>
+                              <strong>Huy Tu</strong>, <strong>Zhe Yu</strong>, <strong>Tim Menzies</strong>
+                              <br>
+                              <p>
+                                Standard automatic methods for recognizing problematic development commits can be greatly improved via the incremental application of human+artificial expertise.
+        In this approach, called EMBLEM, an AI tool first explore the software development process to label commits that are most problematic. Humans then apply their expertise to check those labels (perhaps resulting in the AI updating the support vectors within their SVM learner).
+        <br><br>
+                                    The source code we used for better labeling can be found here:- <a href="https://github.com/sillywalk/defect-prediction/">SillyWalk</a>
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <hr/>
+
+                  <hr/>
+
+              </ol>
+          </div>
+          <!--
+              <div id="contact" class="tab-pane">
+
+              </div>
+          -->
+      </div>
+  </div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100476396-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- <div class="row">
+	  <div class="col-proj-desc">
+	    <font size="2">
+	      <a href="https://people.eecs.berkeley.edu/~barron/">Website Template Credits</a>
+	      Last updated: 08/30/2018
+	    </font>
+	  </div>
+</div> -->
+
+</body>
+</html>
