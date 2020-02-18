@@ -1,4 +1,4 @@
-{% include css/style.css %}
+{% include css/default.css %}
 {% include css/agency.css %}
 {% include css/media-queries.css %}
 {% include css/magnific-popup.css %}
