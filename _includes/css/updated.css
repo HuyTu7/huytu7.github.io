@@ -120,6 +120,13 @@ ul.disc { list-style: disc outside; }
         -moz-columns: 2;
     }
 }
+
+#nav-wrap ul{
+    columns: 1;
+   -webkit-columns: 1;
+   -moz-columns: 1;
+}
+
 ul.social {
    columns: 1;
    -webkit-columns: 1;
