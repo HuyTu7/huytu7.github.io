@@ -25,6 +25,17 @@ time, mark, audio, video {
    background: transparent;
 }
 
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+   display: block;
+}
+
+html {
+   font-size: 62.5%;
+   -webkit-font-smoothing: antialiased;
+   background-color: #003;	
+}
+
 * {
     box-sizing: border-box;
 }
@@ -110,8 +121,9 @@ ul.disc { list-style: disc outside; }
     }
 }
 ul.social {
-   -webkit-columns: none;
-   -moz-columns: none;
+   columns: 1;
+   -webkit-columns: 1;
+   -moz-columns: 1;
 }
 
 a {
@@ -275,3 +287,104 @@ input:checked + label + .reveal {
 
 input + label:after { content: " (Show)"; }
 input:checked + label:after { content: " (Hide)"; }
+
+.column, .columns {
+   position: relative;
+   padding: 0 20px;
+   min-height: 1px;
+   float: left;
+}
+.column.centered, .columns.centered  {
+    float: none;
+    margin: 0 auto;
+}
+
+/* removed gutters */
+.row.collapsed > .column,
+.row.collapsed > .columns,
+.column.collapsed, .columns.collapsed  { padding: 0; }
+
+[class*="column"] + [class*="column"]:last-child { float: right; }
+[class*="column"] + [class*="column"].end { float: right; }
+
+
+.bgrid-sixths [class*="column"]   { width: 16.66667%; }
+.bgrid-quarters [class*="column"] { width: 25%; }
+.bgrid-thirds [class*="column"]   { width: 33.33333%; }
+.bgrid-halves [class*="column"]   { width: 50%; }
+
+[class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: left; }
+
+/* Left clearing for block grid columns - columns that changes width in
+different screen sizes. Allows columns with different heights to align
+properly.
+--------------------------------------------------------------------- */
+.first { clear: left; }   /* first column in default screen */
+.s-first { clear: none; } /* first column in smaller screens */
+
+/* smaller screens
+--------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+
+   /* block grids on small screens */
+   .s-bgrid-sixths [class*="column"]   { width: 16.66667%; }
+   .s-bgrid-quarters [class*="column"] { width: 25%; }
+   .s-bgrid-thirds [class*="column"]   { width: 33.33333%; }
+   .s-bgrid-halves [class*="column"]   { width: 50%; }
+
+   /* block grids left clearing */
+   .first { clear: none; }
+   .s-first { clear: left; }
+
+}
+
+/* mobile narrow
+--------------------------------------------------------------- */
+@media only screen and (max-width: 460px) {
+
+   .row { width: auto; }
+
+}
+
+/* larger screens
+--------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+
+   .wide .row { max-width: 1180px; }
+
+}
+
+/* ------------------------------------------------------------------ */
+/* e. Others
+/* ------------------------------------------------------------------ */
+
+/*  1. Clearing
+    (http://nicolasgallagher.com/micro-clearfix-hack/
+--------------------------------------------------------------------- */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+
+/*  2. Misc -------------------------------------------------------- */
+
+.remove-bottom { margin-bottom: 0 !important; }
+.half-bottom { margin-bottom: 12px !important; }
+.add-bottom { margin-bottom: 24px !important; }
+.no-border { border: none; }
+
+.text-center  { text-align: center !important; }
+.text-left    { text-align: left !important; }
+.text-right   { text-align: right !important; }
+.pull-left    { float: left !important; }
+.pull-right   { float: right !important; }
+.align-center {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	text-align: center !important;
+}
