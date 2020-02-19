@@ -14,9 +14,9 @@
     /* header styles
    ------------------------------------------------------------------ */
    header .banner-text h1 {
-      font: 125px/1.1em 'opensans-bold', sans-serif;
+      font: 100px/0.3em 'opensans-bold', sans-serif;
       letter-spacing: -1px;
-      margin: 0 auto 12px auto;
+      margin: 75 auto 12px auto;
    }
 
 }
@@ -29,11 +29,11 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 110px/1.2em 'opensans-bold', sans-serif;
+      font: 80px/0.3em 'opensans-bold', sans-serif;
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
-      font: 22px/1.9em 'librebaskerville-regular', serif;
+      font: 10px/0.1em 'librebaskerville-regular', serif;
       width: 80%;
    }
    header .banner-text hr {
@@ -100,7 +100,7 @@
 ---------------------------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
-
+	
    /* mobile navigation
    -------------------------------------------------------------------- */
    #nav-wrap {
@@ -195,14 +195,18 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   header .banner-text h1 { font: 95px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text h1 { 
+	font: 70px/0.1em 'opensans-bold', 
+		   sans-serif; 
+	margin: 40px auto 24px auto;
+   }
    header .banner-text h3 {
-      font: 17px/1.9em 'librebaskerville-regular', serif;
+      font: 18px/0.1em 'librebaskerville-regular', serif;
       width: 85%;
    }
    header .banner-text hr {
       width: 80%;
-      margin: 18px auto;
+      margin: 35px auto -15px auto;
    }
 
    /* header social links */
@@ -381,11 +385,11 @@
    -------------------------------------------------------------------- */
    header .banner { padding-top: 24px; }
    header .banner-text h1 {
-      font: 75px/1.1em 'opensans-bold', sans-serif;      
-      margin: 0 auto 24px auto;
+      font: 60px/0.1em 'opensans-bold', sans-serif;      
+      margin: 25px auto 12px auto;
    }
    header .banner-text h3 {
-      font: 16px/1.9em 'librebaskerville-regular', sans-serif;
+      font: 12px/0.1em 'librebaskerville-regular', sans-serif;
       width: 90%;
       word-spacing: 1px;	   
    }
