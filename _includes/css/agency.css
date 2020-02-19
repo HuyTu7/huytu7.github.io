@@ -9,7 +9,7 @@
    a. General Styles
    b. Header Styles
    c. About Section
-   d. Resume Section
+   d. Section
    e. Portfolio Section
    f. Call To Action Section
    g. Testimonials Section
@@ -350,21 +350,21 @@ ul#nav li.current a { color: #F06000; }
 #about h1 {
    font: 45px/30px 'opensans-bold', sans-serif;
    font-weight: 400;
-   color: #005;
+   color: #0e0a07;
    margin-bottom: 30px;
    margin-top: 15px;	
 }
 
 #about h2 {
    font: 28px/30px 'opensans-bold', sans-serif;
-   color: #007;
+   color: #0e0a07;
    margin-bottom: 12px;
 }
 
 #about h3 {
    font: 18px/10px 'opensans-bold', sans-serif;
    font-weight: 600;
-   color: #009;
+   color: #0e0a07;
    margin-bottom: 20px;
    margin-top: 20px; 	
    text-transform:uppercase;	
@@ -373,7 +373,7 @@ ul#nav li.current a { color: #F06000; }
 #about p {	
    line-height: 30px;
    font-size: 18px; 	 
-   color: #009;	
+   color: #0e0a07;	
 }
 #about .profile-pic {
    position: relative;
@@ -390,7 +390,7 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    /* margin-top: 6px; */
-   background: #009;
+   background: #cc0000;
 }
 #about .download .button:hover {
    background: #fff;
@@ -407,7 +407,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #0E0A07;
+   background: #F6F4e9;
    padding-bottom: 72px;
    overflow: hidden;
 	 position: relative;
@@ -1126,7 +1126,7 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 0px;
-   background-color:#003;
+   background-color:#0E0A07;
    font-size: 14px;
    text-align: center;
    position: relative;
