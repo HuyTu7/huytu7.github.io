@@ -58,8 +58,8 @@ header {
     background-size: cover;
     -o-background-size: cover;
     position:relative;
-    height: 50px !important;
-    min-height: 10px;
+    height: 200px !important;
+    min-height: 40px;
     width: 100%;
     overflow: hidden; 	
 }
