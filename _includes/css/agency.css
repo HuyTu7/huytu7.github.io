@@ -121,8 +121,7 @@ header .banner-text h1 {
    font: 75px/0.3em 'opensans-bold', sans-serif;
    color: #f93;
    letter-spacing: -2px;
-	
-   margin: 75pz auto 18px auto;
+   margin-top: 75px;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
@@ -139,8 +138,8 @@ header .banner-text h3 a {
 }
 header .banner-text hr {
    width: 60%;
-   margin: 75px auto 24px auto;
-   border-color: #2F2D2E;
+   margin: 25px auto auto auto;
+   border-color: #f4f4f4;
    border-color: rgba(150, 150, 150, .1);
 }
 
