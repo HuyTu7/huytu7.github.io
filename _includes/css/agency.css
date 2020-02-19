@@ -290,7 +290,7 @@ fieldset[disabled] .btn-xl.active {
    left: 0;
    top: 0;
 }
-.opaque { background-color: #003; }
+.opaque { background-color: #0E0A07; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -337,7 +337,8 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #E6E6F1;
+   /* background: #E6E6F1; */
+   background: #F6F4e9;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -406,7 +407,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #0E0A07;
    padding-bottom: 72px;
    overflow: hidden;
 	 position: relative;
