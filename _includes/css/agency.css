@@ -140,7 +140,7 @@ header .banner-text hr {
    width: 60%;
    margin: 25px auto auto auto;
    border-color: #f4f4f4;
-   border-color: rgba(150, 150, 150, .1);
+   /* border-color: rgba(150, 150, 150, .1); */
 }
 
 /* header social links */
