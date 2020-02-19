@@ -38,7 +38,7 @@
    }
    header .banner-text hr {
       width: 65%;
-      margin: 12px auto;
+      margin: 35px auto -15px auto;
    }
    /* nav-wrap */
    #nav-wrap {
