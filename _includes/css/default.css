@@ -139,11 +139,11 @@ table {
 html {
    font-size: 62.5%;
    -webkit-font-smoothing: antialiased;
-   background-color: #0E0A07;	
+   background-color: #F6F4e9;	
 }
 
 body {
-   background: #0E0A07;
+   background: #F6F4e9;
    font-family: 'opensans-regular', sans-serif;
    font-weight: normal;
    font-size: 15px;
