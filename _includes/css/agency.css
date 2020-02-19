@@ -350,21 +350,21 @@ ul#nav li.current a { color: #F06000; }
 #about h1 {
    font: 45px/30px 'opensans-bold', sans-serif;
    font-weight: 400;
-   color: #0e0a07;
+   color: #26221f;
    margin-bottom: 30px;
    margin-top: 15px;	
 }
 
 #about h2 {
    font: 28px/30px 'opensans-bold', sans-serif;
-   color: #0e0a07;
+   color: #26221f;
    margin-bottom: 12px;
 }
 
 #about h3 {
    font: 18px/10px 'opensans-bold', sans-serif;
    font-weight: 600;
-   color: #0e0a07;
+   color: #26221f;
    margin-bottom: 20px;
    margin-top: 20px; 	
    text-transform:uppercase;	
@@ -373,7 +373,7 @@ ul#nav li.current a { color: #F06000; }
 #about p {	
    line-height: 30px;
    font-size: 18px; 	 
-   color: #0e0a07;	
+   color: #3e3a38;	
 }
 #about .profile-pic {
    position: relative;
