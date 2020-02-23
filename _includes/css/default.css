@@ -817,5 +817,12 @@ properly.
 	text-align: center !important;
 }
 
+input:checked + label + .reveal {
+  max-height: 500px;
+  transition: max-height 0.25s ease-in;
+}
+    
+input + label:after { content: " (Show)"; }
+input:checked + label:after { content: " (Hide)"; }
 
 
