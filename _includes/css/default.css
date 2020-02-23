@@ -154,6 +154,20 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
+.custom-row::after {
+    content: "";
+    clear: both;
+    display: table;
+    justify-content: center;
+}
+
+.custom-sub-row::after {
+    content: "";
+    clear: both;
+    display: table;
+    justify-content: center;
+}
+
 /*  2. Typography
        Vertical rhythm with leading derived from 6
 --------------------------------------------------------------------- */
