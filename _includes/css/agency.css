@@ -405,23 +405,24 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
-/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------  */
 
 #resume {
    background: #F6F4e9;
-   padding-bottom: 72px;
+   padding-bottom: 25px; 
    overflow: hidden;
 	 position: relative;
 }
 
+/* 
 #education{
-	padding-top: 90px;
+     padding-top: 90px;
 }
 #work,#projects,#research, #publications{
 	padding-top: 72px;
 	border-top: 1px solid #E8E8E8;
 }
-
+*/
 #resume a, #resume a:visited  { color: #11ABB0; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
