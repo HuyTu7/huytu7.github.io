@@ -272,6 +272,7 @@ fieldset[disabled] .btn-xl.active {
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
+	 float: inherit;
 	 margin: 0;
 	 padding: 0;
 	 border: none;
