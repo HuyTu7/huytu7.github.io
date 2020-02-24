@@ -21,12 +21,11 @@
 
    $('.smoothscroll').on('click',function (e) {
 	    e.preventDefault();
-
 	    var target = this.hash,
 	    $target = $(target);
 
 	    $('html, body').stop().animate(
-		800, 'swing', function () {
+		function () {
 	        window.location.hash = target;
 	    });
 	});
