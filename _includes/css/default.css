@@ -817,6 +817,12 @@ properly.
 	text-align: center !important;
 }
 
+.reveal {
+  max-height: 0;
+  transition: max-height 0.15s ease-out;
+  overflow: hidden;
+}
+
 input:checked + label + .reveal {
   max-height: 500px;
   transition: max-height 0.25s ease-in;
