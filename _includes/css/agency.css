@@ -178,7 +178,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #f93; }
+header .scrolldown a:hover { color: #fff; }
 
 .img-centered {
     margin: 0 auto;
