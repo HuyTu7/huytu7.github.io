@@ -20,14 +20,15 @@
 ------------------------------------------------------ */
 
    $('.smoothscroll').on('click',function (e) {
-	    e.preventDefault();
+	    /*e.preventDefault();*/
 	    var target = this.hash,
 	    $target = $(target);
-
-	    $('html, body').stop().animate(
+	    window.location.hash = target;
+	     
+	    /*  $('html, body').stop().animate(
 		function () {
 	        window.location.hash = target;
-	    });
+	    });*/
 	});
 
 
