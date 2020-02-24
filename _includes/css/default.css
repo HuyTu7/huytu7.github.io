@@ -845,3 +845,6 @@ input + label:after { content: " (Show)"; }
 input:checked + label:after { content: " (Hide)"; }
 
 
+div.container:before, div.container:after {
+    display: inline;
+}
