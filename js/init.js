@@ -51,8 +51,8 @@
 
 			var active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
 
-                        /**navigation_links.parent().removeClass("current");
-			active_link.parent().addClass("current");*/
+                        navigation_links.parent().removeClass("active");
+			active_link.parent().addClass("active");
 
 		},
 		offset: '35%'
