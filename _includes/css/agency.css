@@ -417,12 +417,12 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
 /* 
 #education{
      padding-top: 90px;
+}*/
+#education, #work,#projects,#research, #publications{
+    background: #F6F4e9;	
+    /*border-top: 1px solid #E8E8E8;*/
 }
-#work,#projects,#research, #publications{
-	padding-top: 72px;
-	border-top: 1px solid #E8E8E8;
-}
-*/
+
 #resume a, #resume a:visited  { color: #11ABB0; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
