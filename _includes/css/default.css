@@ -865,3 +865,8 @@ div.container:before, div.container:after {
     align-content: middle;
     /* vertical-align: middle; */
 }
+papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
