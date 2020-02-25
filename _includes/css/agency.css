@@ -424,8 +424,8 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
     /*border-top: 1px solid #E8E8E8;*/
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a, #resume a:visited  { color: #0e0a07; }
+#resume a:hover, #resume a:focus { color: #f93; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
