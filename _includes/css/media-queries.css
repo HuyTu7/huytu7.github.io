@@ -421,7 +421,10 @@
    /* social links */
    footer .social-links { font-size: 30px; }
    footer .social-links li { margin-left: 14px; }   
-
+	
+   .col-proj-pic {
+    display: none;
+   }
 }
 
 
