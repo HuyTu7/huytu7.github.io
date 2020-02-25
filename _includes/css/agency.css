@@ -1,31 +1,3 @@
-@font-face {
-    font-family: "Segoe UI";
-    src: local("../../fonts/Segoe_UI_Light.ttf") format("truetype");
-    font-weight: 200;
-}
-@font-face {
-    font-family: "Segoe UI";
-    src: local("../../fonts/Segoe_UI.ttf") format("truetype");
-    font-weight: 400;
-}
-@font-face {
-    font-family: "Segoe UI";
-    src: local("../../fonts/Segoe_UI_Bold.ttf") format("truetype");
-    font-weight: 700;
-}
-@font-face {
-    font-family: "Segoe UI";
-    src: local("../../fonts/Segoe_UI_Italic.ttf") format("truetype");
-    font-style: italic;
-    font-weight: 400;
-}
-@font-face {
-    font-family: "Segoe UI";
-    src: local("../../fonts/Segoe_UI_Bold_Italic.ttf") format("truetype");
-    font-style: italic;
-    font-weight: 700;
-}
-
 /*
 =====================================================================
 *   Ceevee v1.0 Layout Stylesheet
