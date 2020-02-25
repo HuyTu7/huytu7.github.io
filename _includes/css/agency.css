@@ -118,14 +118,14 @@ header .banner-text {
 
 
 header .banner-text h1 {
-   font: 100px/0.3em 'opensans-bold', sans-serif;
+   font: 100px/0.3em 'Segoe UI Bold', 'opensans-bold', sans-serif;
    color: #f93;
    letter-spacing: -2px;
    margin: 75px auto 24px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 20px/0.3em 'opensans-bold', Lato;
+   font: 20px/0.3em 'Segoe UI Bold', 'opensans-bold', Lato;
    word-spacing: 2px;	
    color: #A8A8A8;
    margin: 75px auto;
@@ -195,7 +195,7 @@ header .scrolldown a:hover { color: #fff; }
 .btn-primary {
     border-color: #{{ site.color.primary }};
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Segoe UI", Lato, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.color.primary }};
@@ -222,7 +222,7 @@ header .scrolldown a:hover { color: #fff; }
     border-color: #{{ site.color.primary }};
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Segoe UI", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -350,7 +350,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
 #about a:hover, #about a:focus { color: #f93; }
 
 #about h1 {
-   font: 45px/30px 'opensans-bold', sans-serif;
+   font: 45px/30px "Segoe UI Bold", 'opensans-bold', sans-serif;
    font-weight: 400;
    color: #26221f;
    margin-bottom: 30px;
@@ -358,13 +358,13 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
 }
 
 #about h2 {
-   font: 28px/30px 'opensans-bold', sans-serif;
+   font: 28px/30px 'Segoe UI Bold', 'opensans-bold', sans-serif;
    color: #26221f;
    margin-bottom: 12px;
 }
 
 #about h3 {
-   font: 18px/10px 'opensans-bold', sans-serif;
+   font: 18px/10px 'Segoe UI Bold', 'opensans-bold', sans-serif;
    font-weight: 600;
    color: #26221f;
    margin-bottom: 20px;
@@ -428,7 +428,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
 #resume a:hover, #resume a:focus { color: #f93; }
 
 #resume h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'Segoe UI Bold', 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -437,7 +437,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 25px/30px 'Segoe UI Bold', 'opensans-bold', sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -454,7 +454,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
    margin-left: 5px;
 }
 #resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
+   font: 15px/24px 'Segoe UI', 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
 #resume .publ-name {
@@ -492,7 +492,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
   	border-radius: 3px;
 }
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+	font: 15px 'Segoe UI Bold', 'opensans-bold', sans-serif;
    color: #313131;
 	text-transform: uppercase;
    letter-spacing: 2px;
@@ -605,7 +605,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 25px/24px 'opensans-semibold', sans-serif;
+   font: 25px/24px 'Segoe UI Bold', 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -693,11 +693,11 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
   top: 25%;
 }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px 'opensans-bold', sans-serif;
+   font: 14px/21px 'Segoe UI Bold', 'opensans-bold', sans-serif;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 12px/18px 'opensans-light', sans-serif;
+   font: 12px/18px 'Segoe UI Light', 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
 }
@@ -723,7 +723,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
 }
 .popup-modal .description-box { padding: 12px 36px 18px 36px; }
 .popup-modal .description-box h4 {
-   font: 15px/24px 'opensans-bold', sans-serif;
+   font: 15px/24px 'Segoe UI Bold', 'opensans-bold', sans-serif;
 	margin-bottom: 12px;
    color: #111;
 }
@@ -733,7 +733,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
-   font: 11px/21px 'opensans-light', sans-serif;
+   font: 11px/21px 'Segoe UI Light', 'opensans-light', sans-serif;
    color: #A1A1A1;
    text-transform: uppercase;
    letter-spacing: 2px;
@@ -750,7 +750,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
 }
 .popup-modal .link-box a {
    color: #fff;
-	font: 11px/21px 'opensans-bold', sans-serif;
+	font: 11px/21px 'Segoe UI Bold', 'opensans-bold', sans-serif;
 	text-transform: uppercase;
    letter-spacing: 3px;
    cursor: pointer;
@@ -790,7 +790,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
    padding-bottom: 48px;
 }
 #call-to-action h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'Segoe UI Bold', 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -857,7 +857,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'Segoe UI Bold', 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -1002,7 +1002,7 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'Segoe UI Bold', 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
@@ -1035,7 +1035,7 @@ call-to-action .button {
 /* contact form */
 #contact form { margin-bottom: 30px; }
 #contact label {
-   font: 15px/24px 'opensans-bold', sans-serif;
+   font: 15px/24px 'Segoe UI Bold', 'opensans-bold', sans-serif;
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
@@ -1117,7 +1117,7 @@ call-to-action .button {
    display: block;
 }
 #twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
+   font: 13px/36px 'Segoe UI', 'opensans-regular', Sans-serif;
    color: #474747 !important;
    border: none;
 }
