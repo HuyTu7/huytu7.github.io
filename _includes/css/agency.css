@@ -426,9 +426,11 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
 
 #resume a, #resume a:visited  { color: #0e0a07; }
 #resume a:hover, #resume a:focus { color: #f93; }
-
+#publications #resume h1 {
+    text-align: center;
+}
 #resume h1 {
-   font: 18px/24px 'Segoe UI Bold', 'opensans-bold', sans-serif;
+   font: 20px/30px 'Segoe UI Bold', 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
