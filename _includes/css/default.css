@@ -323,7 +323,8 @@ abbr:hover { cursor: help; }
 	color: inherit;
 }
 
-hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 30px; height: 0; }
+/*hr {border: solid #E3E3E3; border-width: 1px 0 0; clear: both; height: 0; }	
+margin: 11px 0 30px;*/ 
 
 
 /*  3. Links  ------------------------------------------------------- */
@@ -902,8 +903,9 @@ papertitle {
 }
 
 hr {
-    border: 0.75px groove;
+    border: 0.75px solid;
     width: 75%;
+    opacity: 0.25;
     align: center;
     margin-top: 20px;
     margin-bottom: 20px;
