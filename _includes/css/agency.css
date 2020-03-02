@@ -410,6 +410,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
 
 #resume {
    background: #F6F4e9;
+   padding-top: 35px
    padding-bottom: 25px; 
    overflow: hidden;
 	 position: relative;
@@ -430,7 +431,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
     text-align: center;
 }
 #resume h1 {
-   font: 20px/30px 'Segoe UI Bold', 'opensans-bold', sans-serif;
+   font: 22px/30px 'Segoe UI Bold', 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
