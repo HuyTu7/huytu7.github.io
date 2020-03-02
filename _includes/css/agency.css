@@ -410,10 +410,10 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
 
 #resume {
    background: #F6F4e9;
-   padding-top: 35px
+   padding-top: 35px,
    padding-bottom: 25px; 
    overflow: hidden;
-	 position: relative;
+   position: relative;
 }
 
 /* 
