@@ -346,7 +346,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
+#about a, #about a:visited  { color: #f; }
 #about a:hover, #about a:focus { color: #f93; }
 
 #about h1 {
@@ -364,7 +364,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
 }
 
 #about h3 {
-   font: 18px/10px 'Segoe UI Bold', 'opensans-bold', sans-serif;
+   font: 18px/25px 'Segoe UI Bold', 'opensans-bold', sans-serif;
    font-weight: 600;
    color: #26221f;
    margin-bottom: 20px;
