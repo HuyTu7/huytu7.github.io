@@ -118,14 +118,14 @@ header .banner-text {
 
 
 header .banner-text h1 {
-   font: 100px/0.3em 'Segoe UI Bold', 'opensans-bold', sans-serif;
+   font: 100px/0.3em Lato, 'Segoe UI','opensans-bold', sans-serif;
    color: #f93;
    letter-spacing: -2px;
    margin: 75px auto 24px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 20px/0.3em 'Segoe UI Bold', 'opensans-bold', Lato;
+   font: 20px/0.3em 'Segoe UI', 'opensans-bold', Lato;
    word-spacing: 2px;	
    color: #A8A8A8;
    margin: 75px auto;
@@ -350,7 +350,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
 #about a:hover, #about a:focus { color: #f93; }
 
 #about h1 {
-   font: 45px/30px "Segoe UI Bold", 'opensans-bold', sans-serif;
+   font: 45px/30px "Segoe UI Light", 'opensans-bold', sans-serif;
    font-weight: 400;
    color: #26221f;
    margin-bottom: 30px;
@@ -358,18 +358,18 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
 }
 
 #about h2 {
-   font: 28px/30px 'Segoe UI Bold', 'opensans-bold', sans-serif;
+   font: 28px/30px 'Segoe UI', 'opensans-bold', sans-serif;
    color: #26221f;
    margin-bottom: 12px;
 }
 
 #about h3 {
-   font: 18px/25px 'Segoe UI Bold', 'opensans-bold', sans-serif;
+   font: 18px/25px 'Segoe UI', 'opensans-bold', sans-serif;
    font-weight: 600;
    color: #26221f;
+	
    margin-bottom: 20px;
-   margin-top: 20px; 	
-   text-transform:uppercase;	
+   margin-top: 20px;	
 }
 
 #about p {	
