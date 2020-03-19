@@ -353,7 +353,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
    font: 45px/30px "Segoe UI Light", 'opensans-bold', sans-serif;
    font-weight: 400;
    color: #26221f;
-   margin-bottom: 30px;
+   margin-bottom: 45px;
    margin-top: 15px;	
 }
 
@@ -367,9 +367,6 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
    font: 18px/25px 'Segoe UI', 'opensans-bold', sans-serif;
    font-weight: 600;
    color: #26221f;
-	
-   margin-bottom: 20px;
-   margin-top: 20px;	
 }
 
 #about p {	
