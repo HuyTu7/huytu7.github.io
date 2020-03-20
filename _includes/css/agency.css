@@ -433,20 +433,27 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
-   padding-bottom: 6px;
+    color: #0a676a;
+    border-bottom: 3px solid #13c2c7;
+    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'Segoe UI Bold', 'opensans-bold', sans-serif;
+    font: 25px/30px 'opensans-bold', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
-
+#resume p {
+    font: 25px/30px 'opensans-bold', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
-   margin-bottom: 10px;
+   margin-bottom: 0px;
    margin-top: 0px;
 }
 #resume .info span {
