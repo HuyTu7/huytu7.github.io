@@ -459,7 +459,7 @@ nav#nav-wrap.large-hide > ul.nav { display: none; }
    margin-left: 5px;
 }
 #resume .date {
-   font: 15px/24px 'Segoe UI', 'opensans-regular', sans-serif;
+   font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
 #resume .publ-name {
